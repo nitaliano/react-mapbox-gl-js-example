@@ -41,7 +41,7 @@ class App extends React.Component {
     });
   }
 
-  async onMapClick (e) {
+  onMapClick (e) {
     const dest = [e.lngLat.lng, e.lngLat.lat];
 
     if (!this.state.destination.length) {

@@ -13,7 +13,7 @@ npm i
 
 ### Add access token
 
-Before you run the example, you'll need to add your access token to `src/index.js`,
+Before you run the example, you'll need to add your access token to [`src/index.js`](https://github.com/nitaliano/react-mapbox-gl-js-example/blob/master/src/index.js#L9),
 you'll be able to find your [Mapbox access tokens here](https://www.mapbox.com/account/access-tokens).
 
 ### Run example
