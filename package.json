@@ -1,0 +1,30 @@
+{
+  "name": "react-mapbox-gl-js-example",
+  "version": "1.0.0",
+  "description": "Example of how to use Mapbox GL JS with React",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "develop": "webpack --watch --config webpack.config.js",
+    "start": "npm run build && node server.js"
+  },
+  "author": "Nick Italiano",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.40",
+    "@babel/plugin-proposal-class-properties": "7.0.0-beta.40",
+    "@babel/preset-env": "7.0.0-beta.40",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "babel-polyfill": "6.26.0",
+    "webpack": "3.11.0"
+  },
+  "dependencies": {
+    "@turf/helpers": "^6.0.1",
+    "express": "^4.16.2",
+    "mapbox": "^1.0.0-beta9",
+    "mapbox-gl": "^0.44.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

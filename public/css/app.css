@@ -1,0 +1,9 @@
+html,
+body,
+#app,
+#app-content,
+.map-container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
