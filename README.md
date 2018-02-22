@@ -10,6 +10,7 @@ git clone git@github.com:nitaliano/react-mapbox-gl-js-example.git
 cd react-mapbox-gl-js-example
 npm i
 ```
+NOTE: This was tested using node `8.1.2`
 
 ### Add access token
 
