@@ -6,16 +6,15 @@ the route line to the location pressed on the map from the Mapbox SF office.
 ### Install
 
 ```
-git clone
+git clone git@github.com:nitaliano/react-mapbox-gl-js-example.git
+cd react-mapbox-gl-js-example
 npm i
 ```
 
 ### Add access token
 
-Before you run the example, you'll need to add your access token
-
-```
-```
+Before you run the example, you'll need to add your access token to `src/index.js`,
+you'll be able to find your [Mapbox access tokens here](https://www.mapbox.com/account/access-tokens).
 
 ### Run example
 
@@ -31,10 +30,11 @@ npm start
 ### Develop
 
 While you have the example application open in chrome and if you wanted to make
-changes to the code you can run
+changes to the code you can run in a different terminal tab
 
 ```
 npm run develop
 ```
 
-in a different terminal tab, the server needs to be running. This command will only
+the server needs to be running! This command will only
+watch client side files and recomplile them.
